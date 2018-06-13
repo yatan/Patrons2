@@ -21,4 +21,9 @@ public class Rectangle extends Figure{
     public double getHeight(){
         return height;
     }
+    
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }    
 }

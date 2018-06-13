@@ -15,4 +15,9 @@ public class Circle extends Figure{
     public double getRadius(){
         return r;
     }
+
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
 }

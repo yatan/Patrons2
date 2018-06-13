@@ -23,4 +23,8 @@ public class Drawing extends Figure{
     public void addComponent(Figure fig){
         components.add(fig);
     }
+    
+    public void accept(Visitor v){
+        v.visit(this);
+    }
 }

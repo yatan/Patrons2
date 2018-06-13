@@ -13,7 +13,7 @@ public class Builder {
     private double x;
     private double y;
     
-    private Builder(double x, double y){
+    public Builder(double x, double y){
         this.x = x;
         this.y = y;
     }

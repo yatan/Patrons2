@@ -20,4 +20,6 @@ public abstract class Figure {
     public double getY(){
         return y;
     }
+    
+    public abstract void accept(Visitor v);
 }
