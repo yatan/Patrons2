@@ -20,8 +20,8 @@ public class AreaDoubler implements Visitor{
     @Override
     public void visit(Rectangle r){
         double doubleHeight = r.getHeight() * Math.sqrt(2.0);
-        double doubleWidth = r.getWith()* Math.sqrt(2.0);
-        resultFigure = new Rectangle(r.getX(), r.getY(), doubleHeight, doubleWidth);
+        double doubleWidth = r.getWidth()* Math.sqrt(2.0);
+        resultFigure = new Rectangle(r.getX(), r.getY(), doubleWidth, doubleHeight);
     }
     
     @Override

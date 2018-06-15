@@ -14,7 +14,7 @@ public class Rectangle extends Figure{
         height = h;
     }
     
-    public double getWith(){
+    public double getWidth(){
         return width;
     }
     
