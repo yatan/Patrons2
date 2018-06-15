@@ -5,8 +5,8 @@ package practicapatrons2;
  * @author Fran
  */
 public class Rectangle extends Figure{
-    private double width;
-    private double height;
+    private final double width;
+    private final double height;
     
     public Rectangle(double x, double y, double w, double h){
         super(x,y);

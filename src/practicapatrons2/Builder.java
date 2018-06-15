@@ -10,8 +10,8 @@ import java.util.List;
  */
 public class Builder {
     private final List<Figure> components  = new ArrayList<>();
-    private double x;
-    private double y;
+    private final double x;
+    private final double y;
     
     public Builder(double x, double y){
         this.x = x;

@@ -24,6 +24,7 @@ public class Drawing extends Figure{
         components.add(fig);
     }
     
+    @Override
     public void accept(Visitor v){
         v.visit(this);
     }

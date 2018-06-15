@@ -5,7 +5,7 @@ package practicapatrons2;
  * @author Fran
  */
 public class Circle extends Figure{
-    private double r;
+    private final double r;
     
     public Circle(double x, double y, double radius){
         super(x,y);
