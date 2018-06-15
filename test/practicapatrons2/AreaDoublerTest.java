@@ -10,9 +10,6 @@ import static org.junit.Assert.*;
  */
 public class AreaDoublerTest {
     
-    public AreaDoublerTest() {
-    }
-    
     private Circle c;
     private Rectangle r;
     private Builder b;
